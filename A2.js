@@ -53,6 +53,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             $('#question5').val('').css('background-color', 'white') //clear last question area
 
+            $('#score').text('0'); //reset score
+
             $('input').prop('disabled', false); //turn on interface
         }
 
